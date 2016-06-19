@@ -1,3 +1,4 @@
 # ActionBarDemo
-一个ActionBar的Demo
-#一个ActionBar的Demo
+
+一个关于ActionBar控件的Demo
+
