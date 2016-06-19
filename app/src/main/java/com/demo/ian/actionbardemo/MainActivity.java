@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({ R.id.button1, R.id.button2})
     public void pickDoor(View door) {
         if (door.getId() == R.id.button1) {
+            //跳转到ToolBarActivity
             Intent intent = new Intent();
             intent.setClass(MainActivity.this, ToolBarActivity.class);
             startActivity(intent);
